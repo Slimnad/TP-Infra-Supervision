@@ -1,6 +1,6 @@
 # Mise en place de l'infrastructure de supervision
 
-## LookEverything souhaite surveiller plusieurs services critiques. La première étape est la mise en place de l'infrastructure virtuelle sur Proxmox, en assurant la configuration des machines selon les spécifications fournies.
+### LookEverything souhaite surveiller plusieurs services critiques. La première étape est la mise en place de l'infrastructure virtuelle sur Proxmox, en assurant la configuration des machines selon les spécifications fournies.
 
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/Sch%C3%A9maInfra.PNG?raw=true)
 
@@ -19,7 +19,7 @@ Premier temps création d'une VM PFSense afin de faire un point d'accès sécuri
 
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/PFSENSE_network.png?raw=true)
 
-## Ensuite création des différentes VMs de l'infrastructure fonctionnelle :
+### Ensuite création des différentes VMs de l'infrastructure fonctionnelle :
 
 - 1 VM Wazuh | G503 G500-Wazuh | 2vCPU - 4 GB RAM - 32 GB HDD
 - 1 VM Debian 12.2 (avec serveur web) | 551 G500-Debian  | 2vCPU - 4 GB RAM - 32 GB HDD
@@ -28,7 +28,7 @@ Premier temps création d'une VM PFSense afin de faire un point d'accès sécuri
 
 ![Alt txt](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/MiseEnPlaceVMs.PNG?raw=true)
 
-## Quelques test ping entre les machines
+### Quelques test ping entre les machines
 
 - Ping entre Win Server, Wazuh et PFSense ( à noter que la machine est sur le réseau VPN pour les prises en main à distance :D)
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/WinSerTOWazuhTOPFSense.png?raw=true)
