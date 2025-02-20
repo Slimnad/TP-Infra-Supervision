@@ -25,15 +25,18 @@ Premier temps création d'une VM PFSense afin de faire un point d'accès sécuri
 - 1 VM DC (Win Server 2022) | 550 G500-Win  | 2vCPU - 4 GB RAM - 32 GB HDD
 - 1 VM Suricata | 502 G500-Suricata | 2vCPU - 4 GB RAM - 32 GB HDD
 
-![Alt txt](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/MiseEnPlaceVMs.PNG?raw=true)
+![Alt txt]
 
 ### Quelques test ping entre les machines
 
 - Ping entre Win Server, Wazuh et PFSense ( à noter que la machine est sur le réseau VPN pour les prises en main à distance :D)
+
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/WinSerTOWazuhTOPFSense.png?raw=true)
 
 - Ping entre Debian et Wazuh
+
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/Ping_DebTOWazuh.png?raw=true)
 
 - Ping entre Wazuh et Win Server
+
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/Ping_WazuhTOWinServ.png?raw=true)
