@@ -4,7 +4,6 @@
 
 ![Alt text](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/Sch%C3%A9maInfra.PNG?raw=true)
 
-Ce premier brief vise la mise en place des machines virtuelles sur le serveur Proxmox, incluant la configuration de base de chaque VM nécessaire pour le projet (Zabbix, serveur web Debian, contrôleurs de domaine Windows).
 
 ### Le plan d'adressage est le suivant :
 
