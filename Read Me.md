@@ -25,7 +25,7 @@ Premier temps création d'une VM PFSense afin de faire un point d'accès sécuri
 - 1 VM DC (Win Server 2022) | 550 G500-Win  | 2vCPU - 4 GB RAM - 32 GB HDD
 - 1 VM Suricata | 502 G500-Suricata | 2vCPU - 4 GB RAM - 32 GB HDD
 
-![Alt txt]
+![Alt txt](https://github.com/Slimnad/TP-Infra-Supervision/blob/main/MiseEnPlaceVMs.PNG?raw=true)
 
 ### Quelques test ping entre les machines
 
